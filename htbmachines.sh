@@ -28,6 +28,7 @@ function helpPanel(){
   echo -e "\t${purpleColour}h)${endColour}${grayCOlour} Mostrar panel de ayuda${endCOlour}"
   echo -e "\t${purpleColour}y)${endColour}${grayCOlour} Mostrar link de youtube de una maquina dada${endCOlour}"
   echo -e "\t${purpleColour}d)${endColour}${grayCOlour} Buscar por dificultad${endCOlour}"
+  echo -e "\t${purpleColour}o)${endColour}${grayCOlour} Buscar por sistema operativo${endCOlour}"
   echo -e "\t${purpleColour}s)${endColour}${grayCOlour} Buscar por skill${endCOlour}"
 }
 
@@ -52,7 +53,7 @@ function searchIP(){
   machineName="$(cat bundle.js | grep "$ipAdress" -B 3 | grep name | tr -d '"' | tr -d ',' | awk 'NF{print $NF}')"
 
   if [ "$machineName" ]; then
-    echo -e "\n${yellowColour}[+]${endColour}${grayColour} La ip${endColour}${turquoiseColour} $ipAdress${endColour}${grayColour} esta asociada a la maquina:${endColour}${blueColou    r} $machineName${endColour}"
+    echo -e "\n${yellowColour}[+]${endColour}${grayColour} La ip${endColour}${turquoiseColour} $ipAdress${endColour}${grayColour} esta asociada a la maquina:${endColour}${blueColour} $machineName${endColour}\n"
   
     searchMachine $machineName
   else
