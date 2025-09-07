@@ -25,9 +25,10 @@ function helpPanel(){
   echo -e "\t${purpleColour}m)${endColour}${grayColour} Buscar por nombre de maquina${endColour}"
   echo -e "\t${purpleColour}u)${endColour}${grayColour} Descargar o actualizar archivos necesarios${endColour}"
   echo -e "\t${purpleColour}i)${endColour}${grayColour} Buscar maquina en base a una ip${endColour}"
-  echo -e "\t${purpleColour}h)${endColour}${grayCOlour} Mostrar panel de ayuda${endCOlour}\n"
-  echo -e "\t${purpleColour}y)${endColour}${grayCOlour} Mostrar link de youtube de una maquina dada${endCOlour}\n"
-  echo -e "\t${purpleColour}d)${endColour}${grayCOlour} Buscar por dificultad${endCOlour}\n"
+  echo -e "\t${purpleColour}h)${endColour}${grayCOlour} Mostrar panel de ayuda${endCOlour}"
+  echo -e "\t${purpleColour}y)${endColour}${grayCOlour} Mostrar link de youtube de una maquina dada${endCOlour}"
+  echo -e "\t${purpleColour}d)${endColour}${grayCOlour} Buscar por dificultad${endCOlour}"
+  echo -e "\t${purpleColour}s)${endColour}${grayCOlour} Buscar por skill${endCOlour}"
 }
 
 function searchMachine(){
