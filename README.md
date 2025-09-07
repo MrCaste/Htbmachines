@@ -44,7 +44,7 @@ Busca las máquinas por un nivel de difficultad comprendido entre Fácil, Media 
 ```
 ./htbmachines.sh -d Media
 ```
-
+<img width="807" height="341" alt="Image" src="https://github.com/user-attachments/assets/699b7f85-ef8a-426a-9a56-7df04a5ff826" />
 ###### Comando -s
 Busca las máquinas en base a una skill dada necesaria para su resolución
 ```
